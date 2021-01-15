@@ -18,6 +18,8 @@ dependencies {
 
 plugins {
     kotlin("jvm") version "1.4.21"
+    // FIXME: comment next line and jcstress will work again
+    kotlin("kapt") version "1.4.21"
 }
 
 group = "me.alexk"
